@@ -260,3 +260,9 @@ let wipFiber = null
     hookIndex++
     return [hook.state, setState]
   }
+
+const Didact = {
+    createElement,
+    render,
+    useState,
+  }
